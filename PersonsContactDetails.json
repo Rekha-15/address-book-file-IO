@@ -1,0 +1,32 @@
+{
+  "Rekha": {
+    "ContactDetailsList": [
+      {
+        "FirstName": "Rekha",
+        "LastName": "Patil",
+        "Address": "GKW Layout",
+        "City": "Bangalore",
+        "State": "Kar",
+        "ZipCode": "560058",
+        "PhoneNumber": "8987765678",
+        "Email": "rekha@gmail.com",
+        "ContactDetailsList": []
+      }
+    ]
+  },
+  "Pavani": {
+    "ContactDetailsList": [
+      {
+        "FirstName": "Pavani",
+        "LastName": "p",
+        "Address": "gandhicolony",
+        "City": "anantapur",
+        "State": "andhrapradesh",
+        "ZipCode": "515411",
+        "PhoneNumber": "7876589876",
+        "Email": "Pavani@gmail.com",
+        "ContactDetailsList": []
+      }
+    ]
+  }
+}
