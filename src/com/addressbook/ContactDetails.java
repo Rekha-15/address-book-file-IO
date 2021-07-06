@@ -6,22 +6,40 @@
  **************************************************************/
 package com.addressbook;
 
+import com.opencsv.bean.CsvBindByName;
+import com.opencsv.bean.CsvBindByPosition;
 /**
  * @author rekha
  * ContactDetails is a class of public type
  * A POJO to set and get fields of ContactDetails
  * Declaring Variables has String
- */
-class ContactDetails extends AddressBook {
-	
-	private String firstName;
-	private String lastName;
-	private String address;
-	private String city;
-	private String state;
-	private String zipCode;
-	private String phoneNumber;
-	private String email;
+*/
+
+public class ContactDetails extends AddressBook {
+    @CsvBindByName(column = "firstName",required = true)
+    @CsvBindByPosition(position = 0)
+    private String firstName;
+    @CsvBindByName(column = "lastName",required = true)
+    @CsvBindByPosition(position = 1)
+    private String lastName;
+    @CsvBindByName(column = "address",required = true)
+    @CsvBindByPosition(position = 2)
+    private String address;
+    @CsvBindByName(column = "city",required = true)
+    @CsvBindByPosition(position = 3)
+    private String city;
+    @CsvBindByName(column = "state",required = true)
+    @CsvBindByPosition(position = 4)
+    private String state;
+    @CsvBindByName(column = "zipCode",required = true)
+    @CsvBindByPosition(position = 5)
+    private String zipCode;
+    @CsvBindByName(column = "phoneNumber",required = true)
+    @CsvBindByPosition(position = 6)
+    private String phoneNumber;
+    @CsvBindByName(column = "email",required = true)
+    @CsvBindByPosition(position = 7)
+    private String email;
 
 	// Constructor
 	public ContactDetails(String firstName, String lastName, String address, String city, String state, String zipCode,
